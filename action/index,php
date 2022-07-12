@@ -29,8 +29,8 @@ while ($product = mysqli_fetch_assoc($products)) {
         <td><?= $product["title"] ?></td>
         <td><?= $product["price"] ?></td>
         <td><?= $product["category"] ?></td>
-        <td><a href="product.php?id=<?= $product["id"] ?>">view</a></td>
-        <td><a href="product_edit.php?id=<?= $product["id"] ?>">update</a></td>
+        <td><a href="view_product.php?id=<?= $product["id"] ?>">view</a></td>
+        <td><a href="edit_product.php?id=<?= $product["id"] ?>">update</a></td>
     </tr>
 
     <?php
