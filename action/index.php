@@ -40,7 +40,7 @@ while ($product = mysqli_fetch_assoc($products)) {
 
 </table>
 
-<form action="action.php" method="post" enctype="multipart/form-data">
+<form action="add_product.php" method="post" enctype="multipart/form-data">
         <p>Title</p>
         <input type="text" name="title">
         <p>Dedcrrition</p>
